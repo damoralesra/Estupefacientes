@@ -1,0 +1,11 @@
+base
+knitr
+rmdformats
+stringr
+dplyr
+tidyr
+ggplot2
+plotly
+pander
+lubridate
+bindrcpp
