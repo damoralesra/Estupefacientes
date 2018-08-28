@@ -42,7 +42,7 @@ La descripción se realizó con la ayuda del [software R](https://www.r-project.
 
 Todos los scripts y bases de datos se encuentran disponibles en:
   
-  - [Github](https://github.com/damoralesra/Acuicultura)
+  - [Github](https://github.com/damoralesra/Estupefacientes.git)
 
 ```{r, eval=FALSE}
 # Creación base de datos final
@@ -180,8 +180,8 @@ datos %>%
 
 Colombia se divide en dos (2) zonas:
 
-  1. **Rural:** Correspondiente a las ciudades y pueblos grandes, zonas con altas densidades poblacionales
-  2. **Urbana:** Zonas con comunidades pequeñas, más dependientes de los recursos naturales
+  1. **Urbana:** Correspondiente a las ciudades y pueblos grandes, zonas con altas densidades poblacionales
+  2.  **Rural:** Zonas con comunidades pequeñas, más dependientes de los recursos naturales
 
 ## Resumen numérico
 
@@ -249,7 +249,7 @@ sitios <- datos %>%
 
 pander(sitios,
        style = "rmarkdown", justify = c("left", "right", "center"),
-       caption = "5 Mayores lugares de incautación")
+       caption = "5 sitios con mayor incautación")
 ```
 
 ## Tipo de estupefaciente mayormente incautado en el **sitio #1**
@@ -413,6 +413,8 @@ ggplotly(g)
 # Información durante los años
 
 ## Incautaciones mes a mes
+
+El año **2018** solo cuenta con información hasta el mes de **Mayo**
 
 ```{r}
 datos %>%

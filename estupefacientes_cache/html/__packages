@@ -9,3 +9,5 @@ plotly
 pander
 lubridate
 bindrcpp
+readr
+purrr
